@@ -24,7 +24,8 @@ module.exports = function (grunt) {
             projection: 'WGS84',
             resampling: 'near',
             minZoom: 1,
-            maxZoom: 5
+            maxZoom: 5,
+            gdal2tiles: '/Library/Frameworks/GDAL.framework/Programs/gdal2tiles.py'
         });
 
         // Iterate over all specified file groups.
@@ -88,7 +89,7 @@ module.exports = function (grunt) {
                                 grunt.util.spawn({
                                     cmd: 'python',
                                     args: [
-                                        'tasks/gdaltiler.py',
+                                        options.gdal2tiles,
                                         '-r', options.resampling,
                                         '-z', options.minZoom + '-' + options.maxZoom,
                                         '-w', 'none',
