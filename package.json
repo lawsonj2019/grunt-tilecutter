@@ -2,22 +2,22 @@
   "name": "grunt-tilecutter",
   "description": "Tilecutter Plugin",
   "version": "0.1.0",
-  "homepage": "https://github.com/jlawson/grunt-tilecutter",
+  "homepage": "https://github.com/lawsonj2019/grunt-tilecutter",
   "author": {
     "name": "James Lawson",
     "email": "github@escape-committee.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jlawson/grunt-tilecutter.git"
+    "url": "git://github.com/lawsonj2019/grunt-tilecutter.git"
   },
   "bugs": {
-    "url": "https://github.com/jlawson/grunt-tilecutter/issues"
+    "url": "https://github.com/lawsonj2019/grunt-tilecutter/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/jlawson/grunt-tilecutter/blob/master/LICENSE-MIT"
+      "url": "https://github.com/lawsonj2019/grunt-tilecutter/blob/master/LICENSE-MIT"
     }
   ],
   "engines": {
@@ -36,7 +36,8 @@
     "grunt": "~0.4.5"
   },
   "keywords": [
-    "gruntplugin"
+    "gruntplugin",
+    "gdal"
   ],
   "dependencies": {
     "chalk": "^0.5.1",
